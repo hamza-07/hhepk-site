@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Hhepk</title>
+  <meta name="title" content="Hhepk">
+  <script src="https://kit.fontawesome.com/d3ceb8aa5e.js" crossorigin="anonymous"></script>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon-16x16.png" sizes="500x500" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="74" height="24" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="74" height="24" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="Hhepk home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+        `
+
+
+        <div class="wrapper">
+          <a href="mailto:hhe786pk@gmail.com" class="contact-link">hhe786pk@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+923212564714</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">H.H & Hamza Enterprise.</h1>
+            <h4 class="h4 hero-title">Strength in Every Package, Trust in Every Delivery
+            </h4>
+            <!-- <img src="./assets/images/logo.png" alt=""> -->
+            <p class="hero-text">
+              We're happy to discuss your needs and offer tailored solutions for your business.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#service" class="btn btn-primary">Explore Now</a>
+
+              <a href="#footer" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section service" aria-labelledby="about-label" id="about">
+
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            About Us
+          </h2>
+          <h3 class="h4 card-title">At H.H Enterprise</h3>
+          <p>
+            we specialize in high-quality packaging solutions, including corrugated cartons,
+            boxes, sheets, paper cones, tubes, printed cores, and more. Our focus is on delivering durable,
+            eco-friendly products tailored to meet the needs of businesses across various industries.
+
+            With years of experience, we provide reliable, customizable packaging that ensures your products are
+            securely packed and efficiently delivered. We are committed to building lasting partnerships by
+            offering
+            innovative, cost-effective solutions and excellent customer service.
+          </p>
+
+          <div>
+            <a href="#  " class="btn-text">
+              <span class="span">Learn More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/banner.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our clients.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Quality Products</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We offer a wide range of high-quality packaging materials that ensure your products are protected
+                    and presented beautifully.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Customized Solutions</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Our team works closely with you to provide packaging solutions tailored to your specific needs.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Reliable Service</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We are committed to timely delivery and exceptional customer service.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/banner2.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We make your spending stress-free for you to have the perfect control.
+            </h2>
+
+            <p class="section-text">
+              We simplify your packaging needs, giving you complete control and peace of mind.We offer high-quality
+              corrugated cartons, paper cones, tubes, printed cores, and unit boxes, designed to
+              protect your products and enhance your brand.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Durable and Reliable.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Customizable.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Eco-Friendly Options.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Excellent Service.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #SERVICES
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="service">
+
+        <div class="container">
+
+          <!-- <p class="section-subtitle" id="project-label">Case Studies</p> -->
+
+          <h2 class="h2 section-title">
+            Our Services
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.png" width="560" height="350" loading="lazy" alt="Corrugated carton"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Corrugated carton</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Corrugated cartons are constructed from multiple layers, unlike single-sheet cardboard. They consist
+                    of three layers: an inner liner, an outer liner, and a middle layer with a fluted structure in
+                    between, which provides added strength and durability.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2 (2).jpg" width="560" height="350" loading="lazy" alt="Packaging"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Packaging</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Packaging protects products from damage, preserves freshness, and enhances branding. It offers
+                    convenience, provides essential information, and promotes sustainability with eco-friendly
+                    materials.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.png" width="560" height="350" loading="lazy" alt="Textile Paper Cone"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Textile Paper Cone</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Textile paper cones provide strong, eco-friendly support for winding yarn and thread. They ensure
+                    smooth handling during production, protect the yarn from damage, and are fully recyclable.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-4.jpg" width="560" height="350" loading="lazy" alt="Paper tube"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Paper tube</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Paper tubes offer durable, eco-friendly support for storing and transporting products like fabrics,
+                    posters, and industrial materials. They provide protection, structure, and are fully recyclable.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-5.png" width="560" height="350" loading="lazy" alt="Printed core"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Printed core</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Printed cores provide strong support for winding materials like paper or textiles, while offering
+                    branding opportunities with custom logos or designs.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-6.jpg" width="560" height="350" loading="lazy" alt="Unit Boxes"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Unit Boxes</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Unit boxes are compact packaging solutions designed to protect individual products, enhance
+                    branding, and ensure easy handling during storage and transport.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+      
+          Portfolio
+         
+        -->
+
+
+
+      <!-- <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Portfolio</p>
+
+          <h2 class="h2 section-title">
+            Check out some of our awesome.
+          </h2>
+        </div>
+      </section> -->
+
+
+      <section class="section project" aria-labelledby="project-label" id="portfolio">
+
+        <h2 class="h2 section-title"> Portfolio</h2>
+
+        <div class="container">
+          <div class="work-list">
+            <!-- <div class="work">
+                    <img src="Images/work1.png" alt="">
+                </div> -->
+            <div class="work">
+              <img src="assets/images/faylogo.jpg" alt="">
+              <div class="layer">
+                <h3>Fay</h3>
+                <p>The brand Fay, which sells a variety of hygiene and household products such as facial tissues,
+                  kitchen towels, baking paper, and cleaning products. The company's mission is to provide effective and
+                  eco-friendly solutions.</p>
+                <p class="company-link"><a href="https://fay.com.pk/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+            <!-- <div class="work">
+                    <img src="Images/work3.jpeg" alt="">
+                </div> -->
+            <div class="work">
+              <img src="assets/images/GSTIlogo.png" alt="">
+              <div class="layer">
+                <h3>Gulshan Sardar Textile Industries</h3>
+                <p>Gulshan Sardar Textile Industries is a family-owned business established in 1998. The company is a
+                  leading manufacturer and exporter of home textile products, including flannel and sheeting fabrics,
+                  bed sets, quilt and mattress covers, and various kitchen and bath linens.</p>
+                <p class="company-link"><a href="https://gulshansti.com/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+            <div class="work">
+              <img src="assets/images/Mughalalo.png" alt="">
+              <div class="layer">
+                <h3>Mughal Aluminium Foil</h3>
+                <p>Mughal Aluminum Foil is a product by Mughal Plastic & Packaging, which manufactures and distributes
+                  various packaging materials, including aluminum foil, cling film, and stretch film. The company
+                  handles both large and small orders and offers free delivery in Pakistan.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+              </div>
+            </div>
+
+
+            <div class="work">
+              <img src="assets/images/Peridot.jpg" alt="">
+              <div class="layer">
+                <h3>PERIDOT PRODUCTS (PRIVATE) LIMITED</h3>
+                <p>Peridot Products (Pvt) Limited is a Pakistani company, that manufactures and
+                  markets KIWI Shoe Care and Household products. They also have their own brands, such as Glint and
+                  Black Cat.</p>
+                <p class="company-link"><a href="https://peridotproducts.com/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a></p>
+                <!-- <a href="#"><i class="fas fa-external-link-alt"></i> </a> -->
+              </div>
+            </div>
+
+
+
+            <div class="work">
+              <img src="assets/images/Rohaz.png" alt="">
+              <div class="layer">
+                <h3>ROHAZ INDUSTRIES (PRIVATE) LIMITED</h3>
+                <p>Rohaz Industries is a Pakistani company established in 1984. It manufactures electrical products like
+                  insulating materials, copper enameled wire, and capacitors for the electric fan and motor industries.
+                </p>
+                <p class="company-link"><a href="https://rohazindustries.com/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+
+            <div class="work">
+              <img src="assets/images/blog-5.png" alt="">
+              <div class="layer">
+                <h3>SHEREN PAPER CONE</h3>
+                <p>Paper tubes offer durable, eco-friendly support for storing and transporting products like fabrics,
+                  posters, and industrial materials. They provide protection, structure, and are fully recyclable.</p>
+                <p class="company-link"><a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+
+            <div class="work">
+              <img src="assets/images/Diamondterry.jpg" alt="">
+              <div class="layer">
+                <h3>DIAMOND TERRY EXPORTERS</h3>
+                <p>Diamond Terry is a company based in Pakistan that exports textiles, primarily terry cloth and towels.
+                </p>
+                <p class="company-link"><a href="https://diamondterry.com/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+            <div class="work">
+              <img src="assets/images/SPCPL.jpg" alt="">
+              <div class="layer">
+                <h3>SABEEL PAPER CONE (PRIVATE) LIMITED</h3>
+                <p>Paper tubes offer durable, eco-friendly support for storing and transporting products like fabrics,
+                  posters, and industrial materials. They provide protection, structure, and are fully recyclable.
+                </p>
+                <p class="company-link"><a
+                    href="https://www.facebook.com/p/Sabeel-Paper-Cone-Private-Limited-100094200739529/"
+                    target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+            <div class="work">
+              <img src="assets/images/Arison.jpeg" alt="">
+              <div class="layer">
+                <h3>ARISONS PACKAGING INDUSTRIES (PRIVATE) LIMITED</h3>
+                <p>Arisons Packaging Industries is a manufacturer of stretch film and PP strapping, providing a variety
+                  of packaging solutions for businesses.</p>
+                <p class="company-link"><a href="https://arisonspack.com/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+            <div class="work">
+              <img src="assets/images/Albarka.png" alt="">
+              <div class="layer">
+                <h3>AL-BARAKAH PAPER CONE</h3>
+                <p>Paper tubes offer durable, eco-friendly support for storing and transporting products like fabrics,
+                  posters, and industrial materials. They provide protection, structure, and are fully recyclable.</p>
+                <p class="company-link"><a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+            <div class="work">
+              <img src="assets/images/Pearlpack.png" alt="">
+              <div class="layer">
+                <h3>Pearl Pack Aluminum Foil Company</h3>
+                <!-- <p>.</p> -->
+                <p class="company-link"><a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+
+            <div class="work">
+              <img src="assets/images/EZY.png" alt="">
+              <div class="layer">
+                <h3>Apple Associate EZY STRECH WARP</h3>
+                <!-- <p>.</p> -->
+                <p class="company-link"><a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="assets/images/OMTC.jpg  " alt="">
+              <div class="layer">
+                <h3>Organic Textile Company</h3>
+                <p>Organic Textile Company that sells a variety of fabrics, craft supplies, and gifts. The site features
+                  different categories like "All Fabrics," "New," "Samples," "Printing Fabrics," and "Blanks." It also
+                  includes sections for customer service, a newsletter, and information about the company's weaving
+                  partners.</p>
+                <p class="company-link"><a href="https://organiccotton.biz/store/" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action" id="footer">
+        <div class="container">
+
+          <h2 class="h2 section-title">We're happy to discuss your needs and offer tailored solutions for your
+            business.
+          </h2>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-dark.png" width="74" height="24" alt="Hhepk home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/boxdln" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/boxdln_" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Gulburg Karachi, Sindh, Pakistan
+          </address>
+        </li>
+
+        <li>
+          <a href="hhe786pk@gmail.com" class="footer-link">hhe786pk@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+923212564714" class="footer-link">+923212564714</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#service" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#portfolio" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <!-- <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p> -->
+
+        <form name="submit-to-google-sheet"
+          action="https://script.google.com/macros/s/AKfycbxJqLlK-Tby4XgzT3HCIaNvEwDx-V--KUJ18fCekZKQUa64LaVQEOw1PDFBkTq7zqi2JQ/exec"
+          class="input-wrapper" method="POST">
+
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Massage" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn">Submit</button>
+          <p id="msg"></p>
+
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+
+    // try.hamzawaheed.com@gmail.com
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxJqLlK-Tby4XgzT3HCIaNvEwDx-V--KUJ18fCekZKQUa64LaVQEOw1PDFBkTq7zqi2JQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "We'll reach you shortly"
+          setTimeout(() => {
+            msg.innerHTML = ""
+          }, 500)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
